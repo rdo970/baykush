@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0 0;
+  font-size: 36px;
+}
+
+.linkler {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;          /* butonlar arası boşluk */
+  margin-top: 200px;  /* grubun başlığa uzaklığı */
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  margin: 0;
+ width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 24px;
+  font-size: 16px;
+  margin: 0;
+
+
+button img {
+  width: 20px;
+  height: 20px;
+}
+}
